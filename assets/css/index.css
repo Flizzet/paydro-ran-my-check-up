@@ -1,0 +1,31 @@
+#jumbotron .jumbotron-header {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    border: 1px solid blue;
+}
+#jumbotron .all-button {
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.beat-row {
+    position: absolute;
+    border: 1px solid blue;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.beat-info {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid green;
+    text-align: right;
+}
